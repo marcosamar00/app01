@@ -1,0 +1,9 @@
+{
+
+"name": "App_Portfólio",
+"short": "DFM",
+"start": "/",
+"display": "standalone" , // faz o app abrir como aplicativo independente
+"background_color": "#ffffff"   //cor de fundo no carregamento
+"theme_color": "#000000" , // cor da barra de status
+}
