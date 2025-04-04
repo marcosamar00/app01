@@ -3,7 +3,23 @@
 "name": "App_Portfólio",
 "short": "DFM",
 "start": "/",
-"display": "standalone" , // faz o app abrir como aplicativo independente
-"background_color": "#ffffff"   //cor de fundo no carregamento
-"theme_color": "#000000" , // cor da barra de status
+"display": "standalone", // faz o app abrir como aplicativo independente
+"background_color": "#ffffff",   //cor de fundo no carregamento
+"theme_color": "#000000", // cor da barra de status
+"description": "Esse é o app dos estudantes do 3° Sistemas 2025",
+"id": "portfolio-app",
+"dir": "ltr", //left to right
+"lang": "pt-BR",
+"icons": [
+    {
+        "src":"/icon-192.png",
+        "size":"192x192",
+        "type":"image/png"
+    },
+    {
+        "src":"/icon-512.png",
+        "size":"512x512",
+        "type":"image/png"
+    }
+]
 }
