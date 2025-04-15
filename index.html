@@ -7,7 +7,14 @@
     <link rel="stylesheet" href="manifest.json">
     <link rel="stylesheet" href="style.css">
 
-    <!--Registro de Service Worker (nas próximas aulas)-->
+    <!-- Registro do service worker (nas próximas aulas)-->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then(() => console.log("Service Worker registrado."))
+                .catch((err) => console.error("Erro no Service Worker:", err));
+        }
+    </script>
 
 
 </head>

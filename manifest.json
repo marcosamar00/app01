@@ -11,26 +11,27 @@
 "dir": "ltr",
 "lang": "pt-BR",
 "icons": [
-            {
-            "src":"/icon-192.png",
-            "size":"192x192",
-            "type":"image/png"
-            },
-            {
-            "src":"/icon-512.png",
-            "size":"512x512",
-            "type":"image/png"
-            }
-    ],
-    "orientation":"portrait",
-    "screenshots":[
-        {
-        "src":"screenshot.png",
-        "size":"320X480",
-        "type":"image.png"
-        }
-    ],
-    "categories":["Education"],
-    "prefer_related_applications":"false",
-    "scope":"/"
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait",
+  "screenshots": [
+    {
+      "src": "/screenshot1.png",
+      "sizes": "320x480",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["Education"],
+  "prefer_related_applications": false,
+  "push": true,
+  "scope": "/"
 }
